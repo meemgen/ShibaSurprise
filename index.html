@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShibaSurprise - SHIBS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe3e1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #ff5f6d, #ffc371);
+        }
+        .header h1 {
+            font-size: 3em;
+            animation: bounce 2s infinite;
+        }
+        .header h2 {
+            font-size: 1.5em;
+            margin-top: -10px;
+            color: #fff;
+        }
+        .description {
+            padding: 20px;
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px 0;
+            animation: fadeIn 1s;
+        }
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contract {
+            text-align: center;
+            margin: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .button {
+            background-color: #ff5f6d;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1.1em;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background-color: #ffc371;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff5f6d;
+            color: white;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ShibaSurprise</h1>
+        <h2>(SHIBS)</h2>
+    </div>
+    <div class="description">
+        <p>Get ready for a wave of excitement and cuteness! 🎉🐾</p>
+    </div>
+    <div class="image">
+        <img src="https://raw.githubusercontent.com/meemgen/ShibaSurprise/main/ShibaSurprise.png" alt="ShibaSurprise Logo">
+    </div>
+    <div class="contract">
+        <p>Contract Address:</p>
+        <a href="https://explorer.solana.com/address/5XB749zeqWdNhmnFmp2pMG2KWB6gCbUGrubQriPKpump" target="_blank">5XB749zeqWdNhmnFmp2pMG2KWB6gCbUGrubQriPKpump</a>
+    </div>
+    <div class="buttons">
+        <a href="#" class="button">Twitter 🐦</a>
+        <a href="#" class="button">Telegram 💬</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 ShibaSurprise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
